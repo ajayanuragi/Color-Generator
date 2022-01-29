@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.one{
+    height: 90vh;
+    width: 20vw;
+}
+button h2{
+    font-size: 16px;
+}
+button{
+    margin: 5px;
+
+    border-radius: 15px;
+}
+h1{
+    padding: 20px;
+}
+#one{
+   
+    background: hsl(120,100%,50%);
+}
+#two{
+    background: rgb(255, 0, 0);
+}
+#three{
+    background: rgb(111, 0, 255);
+}
+#four{
+    background: seagreen;
+}
+#five {
+    background: rgb(168, 47, 192);
+}

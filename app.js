@@ -63,6 +63,5 @@ function RGBAToHexA(r,g,b) {
     g = "0" + g;
   if (b.length == 1)
     b = "0" + b;
-
   return "#" + r + g + b;
 }

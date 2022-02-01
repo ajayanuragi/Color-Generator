@@ -4,7 +4,6 @@ body{
     padding: 0;
     text-align: center;
     font-family: 'Inter', sans-serif;
-
 }
 nav{
     height: 50px;
@@ -21,7 +20,6 @@ nav img{
     margin: 0;
     padding: 0;
 }
-
 .one{
     height: 85vh;
     width: 20vw;
@@ -40,15 +38,11 @@ button{
     border-radius: 20px;
         outline: none;
         cursor: pointer;
-    
 }
-
 h1{
     padding: 20px;
-   
 }
 #one{
-   
     background: rgb(165, 233, 165);
 }
 #two{
@@ -84,8 +78,6 @@ footer p{
     font-weight: lighter;
     color: #250202a2;
 }
-
-
 @media screen and (max-width:768px) {
     html,body{
         width: 100vw;
@@ -103,20 +95,16 @@ footer p{
         height: 20vh;
         display: flex;
         flex-direction: row;
-
     }
-
     h1{
     font-size:2rem;
     text-align: center;
     vertical-align: middle;
-    
     }
     p{
         font-size: 1rem;
         padding-top: 37px;
-        padding-right: 20px;
-        
+        padding-right: 20px;  
     }
     button{
         width: 40%;
@@ -126,18 +114,15 @@ footer p{
         cursor: pointer;
         border-radius: 20px;
         outline: none;
-
     }
    footer p{
        text-align: center;
-   }
-    
+   } 
 }
     
 @media screen and (max-width:320px) {
     html,body{
-        width: 100vw;
-        
+        width: 100vw;   
     }
     .container{
         display: flex;
@@ -152,18 +137,15 @@ footer p{
         display: flex;
         flex-direction: row;
     }
-
     h1{
     font-size:1rem;
     text-align: center;
     vertical-align: middle;
-    
     }
     p{
         font-size: .6rem;
         padding-top: 25px;
-        padding-right: 10px;
-        
+        padding-right: 10px; 
     }
     button{
         width: 50%;

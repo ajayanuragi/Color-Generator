@@ -6,6 +6,15 @@ body{
     font-family: 'Inter', sans-serif;
 
 }
+nav{
+    height: 50px;
+}
+nav img{
+    height: 40px;
+    width: 40px;
+    padding: 2px;0px;
+    margin-right: 80%;
+}
 .container{
     display: flex;
     flex-direction: row;
@@ -14,18 +23,18 @@ body{
 }
 
 .one{
-    height: 90vh;
+    height: 85vh;
     width: 20vw;
 }
 button h2{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #fff;
 }
 button{
     margin-top: 5px;
     margin-bottom: 0%;
     width: 200px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     background: rgb(224, 54, 54);
     border: 1px solid #fff;
 }
@@ -48,4 +57,38 @@ h1{
 }
 #five {
     background: rgb(226, 109, 250);
+}
+
+@media  screen and (max-width:768px) {
+    body{
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .one{
+        height: 20vh;
+        width: 100vw;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-items: center;
+        gap: 10px;
+        margin-right: 10px;
+    }
+    h1{
+        font-size: 2rem;
+        padding: 20px;
+    }
+}
+@media  screen and (max-width:320px) {
+    h1{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.5rem;
+    }
+    
 }

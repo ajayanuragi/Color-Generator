@@ -16,6 +16,7 @@ nav img{
 h1{
     font-size: 3.5rem;
     font-weight: 900;
+    
 }
 p{
     font-size: 2rem;
@@ -23,6 +24,12 @@ p{
     padding-bottom: 1.2rem;
     padding-top: 0%;
     opacity: 0.7;
+}
+span{
+    background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(88, 90, 65));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 button{
     margin-top: 0%;
